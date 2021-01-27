@@ -1046,3 +1046,14 @@ h3 {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 767px) {
+
+
+#bloc-4-portfolio img {
+    width: 50%;
+    margin-left: 25%;
+}
+}
+
+
