@@ -1105,6 +1105,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .formulaire  {
@@ -1118,3 +1119,34 @@ h3 {
     align-items: center;
 }
 
+.formulaire .cta-hero {
+    width: 200px;
+}
+
+.speech p {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.backgcontact {
+    background-image: url(img/la-chouette-agence-banniere.webp);
+}
+
+.contact .bloc {
+    padding: 0;
+}
+
+.speech h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.speech {
+    margin-bottom: 20px;
+}
+
+article button {
+    width: 200px;
+}
