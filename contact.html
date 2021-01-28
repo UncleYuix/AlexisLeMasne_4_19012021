@@ -14,8 +14,8 @@
 	<link rel="preload" href="./css/font-awesome.css" as="style">
 	<link rel="preload" href="./css/et-line.css" as="style">
 
-	<link rel="preload" as="font" href="https://uncleyuix.github.io/AlexisLeMasne_4_19012021/fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin> />
-	<link rel="preload" as="font" href="https://uncleyuix.github.io/AlexisLeMasne_4_19012021/fonts/et-line.woff" crossorigin> />
+	<link rel="preload" as="font" href="https://uncleyuix.github.io/AlexisLeMasne_4_19012021/fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin> 
+	<link rel="preload" as="font" href="https://uncleyuix.github.io/AlexisLeMasne_4_19012021/fonts/et-line.woff" crossorigin> 
 	
 	<link rel="preload" href="./js/bootstrap-mini.js" as="script">
 	<link rel="preload" href="./js/blocs.js" as="script">
@@ -24,7 +24,7 @@
 	
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg" media="all">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="all">
-	<link rel="stylesheet" type="text/css" href="style-min.css" media="all">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" media="all">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css" media="all">
 
@@ -69,7 +69,7 @@
 
 	<!-- bloc-6 --><div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 			<div class="container bloc-lg">
-				<div class="row tight-width-whitespace">
+				<div class="row tight-width-whitespace"></div>
 					<h1>
 						Parlons web design !
 					</h1>
@@ -86,9 +86,7 @@
 	<!-- bloc-7 -->
 	<div class="bloc bgc-white l-bloc" id="bloc-7">
 		<div class="container bloc-lg">
-			<div class="row">
-				<div class="col-sm-6">
-					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+			<div class="formulaire">
 						<div class="form-group">
 							<label>
 								Nom
@@ -107,29 +105,38 @@
 							<label>
 								Comment nous avez-vous connu ?
 							</label>
-							<input class="form-control" type="email" required placeholder="Par un client"/>
+							<input class="form-control" type="text" required placeholder="Par un client"/>
 						</div>
 
 						<div class="form-group">
 							<label>
-								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required> </textarea>
+								Brief de votre projet 
+							</label>
+							<input class="form-control" type="text" required placeholder="Nous cherchons " /> 
 						</div> 
+
+
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
 					</form>
-				</div>
-				<div class="col-sm-6">
-
-					<h2>	contact@lachouetteagence.com </h2> 
-					<p>2 place Sathonay 69001 Lyon </p>
-					<p>Ouvert de 9h à 18h, du lundi au vendredi	</p>
-				</div>
+				</div>				
 			</div>
 		</div>
 	</div>
 	<!-- bloc-7 END -->
+
+	<aside>
+
+		<div class="adresse">
+
+			<h2>	contact@lachouetteagence.com </h2> 
+			<p>2 place Sathonay 69001 Lyon </p>
+			<p>Ouvert de 9h à 18h, du lundi au vendredi	</p>
+			</div>
+
+			
+	</aside>
 
 	<!-- ScrollToTop Button -->
 	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
